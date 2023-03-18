@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Suggestions</title>
 </head>
 <body>
-    
+    <h1>Enter your liked movies below</h1>
+    <div class="inputBox">
+        <textarea id="msgContent" cols="30" rows="10" placeholder="Type Here"></textarea>
+    </div> <br><br>
+    <button onclick = "myFunction()">Submit</button>
+    <style>
+        body {
+            background-color:#17a2b8; text-align: center; color: floralwhite;
+        }
+       
+        .inputBox textarea{
+            width: 33%;
+            height: 120px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.2);
+            padding: 0px 10px;
+            font-size: 16px;
+            color: #444;
+        }
+        
+    </style>
+    <script>
+        function myFunction() {
+            alert("testing");    
+            let userInput = document.querySelector("#useInput");
+        }
+    </script>
+
 </body>
 </html>
